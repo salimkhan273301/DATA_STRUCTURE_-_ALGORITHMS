@@ -27,7 +27,7 @@ public class MyThread extends Thread {
 		System.out.println(t.getState());
 		Thread.sleep(100);
 		System.out.println(t.getState());
-		t.join();
+		t.join();//main method will wait till tread execute its task completely after that  main method will execute next line 
 		System.out.println(t.getState());
 		
 
